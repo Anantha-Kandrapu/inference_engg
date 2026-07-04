@@ -1,0 +1,27 @@
+# Training
+    ## DDP  -> Distributed data parallel
+    ## FSDP -> Fully sharded data parallel
+    ### Pipeline Parallelism
+    ### Tensor Parallelism
+    ### Sequence Parallelism
+    ### ZeRO -> Zero Redundancy Optimizer
+    ### DeepSpeed
+    
+# Optimization and fine tuning
+    ## Quantization
+        ### GPTQ
+        ### AWQ
+    ## PEFT -> Parameter-efficient fine-tuning
+    ## LoRA -> Low-rank adaptation
+    ## QLoRA -> Quantized low-rank adaptation
+# Inference
+    ## Flash Attention
+    ## K V Cache
+    ## Fire Attention
+    ## Continous batching
+
+----
+
+
+
+
