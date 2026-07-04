@@ -1,0 +1,9 @@
+#  DeepSpeed : Training and Inference (Parking it for now only theory)
+
+# VLLM : Simplest install and run, Optimal for Inference
+
+# TensorRT-LLM : More manual , need hardware details
+
+# SGLang : Optimal for agentic  tasks
+
+

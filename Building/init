@@ -1,1 +1,9 @@
 GOAL : Perf Optimization for LLM/mlModel inference
+
+### Ideas
+- How about deploying a model both on vllm and sglang and optimally choose the deployment based on request. 
+    - we'll need param queryType: Agentic, QueryType : Standard 
+    - standard -> vllm
+    - agentic -> sglang
+    - Check actual perf improvement.
+
