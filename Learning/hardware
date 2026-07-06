@@ -1,0 +1,54 @@
+If the trend continues, AI training clusters will move from single-digit exaFLOPs to tens or even hundreds of exaFLOPs over the next 3–5 years.
+
+Generation	Peak/chip	Pod size	Pod peak
+TPU v4 (2021)	275 TFLOPS BF16	4,096 chips	~1.1 EFLOPS
+TPU v5p (2023)	459 TFLOPS BF16	8,960 chips	~4.1 EFLOPS  
+Trillium / v6e (2024)	~918 TFLOPS BF16 (≈2× v5p)	scales to tens of thousands of chips	Multi-exaFLOP clusters  
+Ironwood v7 (2025)	4.6 PFLOPS FP8/chip	9,216 chips	>42 EFLOPS FP8  
+
+Other useful scale numbers:
+
+* TPU v5p chip
+    * 459 TFLOPS BF16
+    * 95 GB HBM
+    * 2.76 TB/s HBM bandwidth
+    * 1.2 TB/s inter-chip bandwidth  
+* Full v5p pod
+    * 8,960 chips
+    * ~850 TB aggregate HBM
+    * ~4 EFLOPS BF16  
+
+Predictions (2026–2030):
+
+* Frontier training clusters: 50–200 EFLOPS effective low-precision compute.
+* Largest hyperscalers (Google, Microsoft/OpenAI, Meta, xAI, Amazon): 100k–1M accelerators in a single training system.
+* HBM per accelerator: 200–500+ GB.
+* Memory bandwidth: 10–20 TB/s per chip.
+* Interconnect bandwidth: 5–10× today’s levels, making trillion-parameter MoE models communication-efficient.
+* Power per AI campus: 0.5–2 GW, comparable to a medium-sized power plant.
+
+NVIDIA is currently ahead in absolute AI training hardware scale.
+
+GPU	AI throughput	Memory	Memory BW
+H100 (2023)	~4 PFLOPS FP8	80 GB HBM3	3.35 TB/s
+H200 (2024)	~4 PFLOPS FP8	141 GB HBM3e	4.8 TB/s
+B200 Blackwell (2025)	20 PFLOPS FP4, 4.5 PFLOPS FP8	192 GB HBM3e	8 TB/s  
+Rubin (2026)	35 PFLOPS training, 50 PFLOPS inference (FP4)	288 GB HBM4	3.6 TB/s NVLink per GPU  
+
+Scale examples:
+
+* GB200 NVL72 rack
+    * 72 Blackwell GPUs
+    * 13.4 TB HBM
+    * 130 TB/s NVLink fabric
+    * ~120 kW/rack
+    * ~1.44 FP4 exaFLOPS/rack  
+
+Likely roadmap:
+
+* 2023: Hopper (H100)
+* 2025: Blackwell (B200/GB200)
+* 2026: Rubin
+* ~2028: Feynman (announced as the next architecture after Rubin)  
+
+Rule of thumb: NVIDIA has been delivering roughly 2–5× AI performance per generation while increasing memory and interconnect bandwidth at a similar pace. TPUs compete well inside Google’s infrastructure, but NVIDIA dominates the broader market because of CUDA, networking (InfiniBand/NVLink), and ecosystem support.ndustry trend:
