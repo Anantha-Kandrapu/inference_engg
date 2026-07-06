@@ -52,3 +52,4 @@ Likely roadmap:
 * ~2028: Feynman (announced as the next architecture after Rubin)  
 
 Rule of thumb: NVIDIA has been delivering roughly 2–5× AI performance per generation while increasing memory and interconnect bandwidth at a similar pace. TPUs compete well inside Google’s infrastructure, but NVIDIA dominates the broader market because of CUDA, networking (InfiniBand/NVLink), and ecosystem support.ndustry trend:
+
