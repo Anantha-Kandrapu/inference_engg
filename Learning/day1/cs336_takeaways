@@ -1,0 +1,7 @@
+Lecture5:
+
+---
+1. How GPUs/ TPUs work
+2. GPU : warp, threads, SM
+3. TPU : SM , VXU, MXU. By default has a 128*128 MatMul
+4. 

@@ -1,3 +1,4 @@
-### Working backwards from nanoGPT code and seeing where I can optimize
+### Working backwards from GPT2 and seeing where I can optimize
 
 
+- Noticed that Computer with 4gb mem cannot load tensors for gpt2 with SSH connections and jupiter nb.
