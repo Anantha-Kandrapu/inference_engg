@@ -29,5 +29,5 @@ def test_op(batch_size, num_heads, seq_len, head_dim ,causal, dtype=torch.float1
     P = torch.softmax(P.float(), dim=-1).half()
     print("Attention vals after softmax", P, "Shape of " , P.shape)
     ref_0 = torch.matmul(P,V) # ref_0 is (QKt)V
-    print("Full attention operation ", ref_0, "shape of full attention", ref_0.shape)
+    print("Full attention operation ", ref_0[0][0], "\nshape of full attention", ref_0.shape)
 print(test_op(1,4,16,2,True))
