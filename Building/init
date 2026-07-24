@@ -7,3 +7,5 @@ GOAL : Perf Optimization for LLM/mlModel inference
     - agentic -> sglang
     - Check actual perf improvement.
 
+
+- A GPU can pass burn-in, run stable for weeks, and still be corrupting data nobody's watching for.
